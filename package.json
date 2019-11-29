@@ -1,0 +1,11 @@
+{
+  "name": "server-selector",
+  "version": "0.0.1",
+  "description": "A website generator for a server overview",
+  "main": "index.js",
+  "author": "Simon Knott",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
