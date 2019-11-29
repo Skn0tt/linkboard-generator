@@ -29,10 +29,10 @@ export class SearchBar {
       const { acronym, href, logo, name, color } = server;
       const template = `
       <a class="mdl-button mdl-cell mdl-cell--4-col-phone" style="text-decoration: none;" href="${href}">
-        <div class="server-card mdl-card mdl-shadow--2dp" style="background: ${color}" >
-          <div class="mdl-card__title mdl-card--expand">${name}</div>
+        <div class="server-card mdl-card mdl-shadow--2dp" style="background: url('${logo}') center /cover" >
+          <div class="mdl-card__title mdl-card--expand"></div>
           <div class="mdl-card__actions">
-            <span class="server-card__filename">${href}</span>
+            <span class="server-card__href">${href}</span>
           </div>
         </div>
       </a>

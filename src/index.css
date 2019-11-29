@@ -19,16 +19,13 @@
 .server-card > .mdl-card__actions {
   height: 52px;
   padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(63,81,181, 0.6);
 }
 .server-card > .mdl-card__title {
   align-items: flex-start;
 }
-.server-card__filename {
+.server-card__href {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-}
-.server-card > .mdl-card__title {
-  color: #fff;
 }
