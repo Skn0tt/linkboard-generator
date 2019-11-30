@@ -7,9 +7,8 @@
   "repository": "github:Skn0tt/linkboard-generator",
   "license": "MIT",
   "bin": "./index.js",
-  "devDependencies": {
+  "dependencies": {
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.7.2"
-  },
-  "dependencies": {}
+  }
 }
