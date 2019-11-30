@@ -4,6 +4,7 @@
   "description": "A website generator for an overview over some links",
   "main": "index.js",
   "author": "Simon Knott",
+  "repository": "github:Skn0tt/linkboard-generator",
   "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
