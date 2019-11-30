@@ -35,7 +35,9 @@ const withProductionEnv = task => async () => {
 }
 
 const bundle = withProductionEnv(async () => {
-  const bundler = new Bundler(entryFiles);
+  const bundler = new Bundler(entryFiles, {
+    publicUrl: "/"
+  });
   await bundler.bundle();
 })
 
