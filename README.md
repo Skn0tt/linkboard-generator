@@ -1,7 +1,20 @@
-# Usage
+# Linkboard Generator
 
-```
-echo '[{ ... your servers here  ... }]' | docker run -i -v ./outfolder:/dist server-selector-generator
+Usage:
+
+```sh
+yarn global add linkboard-generator
+echo '[ ... your links here ... ]' | linkboard-generator
 ```
 
-find your files in `outfolder`
+## Link Structure
+
+```json
+{
+  "name": "The name of your link",
+  "acronym": "Some acronym",
+  "logo": "http://link.to/your-background-image",
+  "href": "https://your.link",
+  "color": "your-favorite-color"
+}
+```

@@ -1,7 +1,7 @@
 {
-  "name": "server-selector",
+  "name": "linkboard-generator",
   "version": "0.0.1",
-  "description": "A website generator for a server overview",
+  "description": "A website generator for an overview over some links",
   "main": "index.js",
   "author": "Simon Knott",
   "license": "MIT",
